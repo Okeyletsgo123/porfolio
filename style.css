@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Chicago', sans-serif;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-family: 'Roboto Slab';
+    margin: 40px 0px;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .b {
+    color: white;
+    font-family: 'Chicago', sans-serif;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    animation: slideFromBottom 3s ease-out;
+  }
+  
+  @keyframes slideFromBottom {
+    0% {
+      transform: translateY(25%);
+    }
+  
+    10% {
+      transform: translateY(25%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  .txt {
+    font-family: 'Roboto Slab', sans-serif;;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  
+    position: absolute;
+    color: white;
+  }
+  .footer {
+    color: grey;
+    font-family: 'Roboto Slab';
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+  
+  .footer:hover {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .line {
+    border-bottom: 1px solid #fff; /* Параметры линии */
+   }
